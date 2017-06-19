@@ -1,0 +1,253 @@
+{
+	"id": "f64613fc-d371-47d1-ba3f-c76cc44c2532",
+	"name": "Peticiones MCFLY",
+	"allTests": [],
+	"timestamp": "2017-06-19T21:22:22.251Z",
+	"collection_id": "a198e0ae-0366-da7f-3d6b-61a374950c8c",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "no-environment",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "a198e0ae-0366-da7f-3d6b-61a374950c8c",
+		"name": "Peticiones MCFLY",
+		"description": "",
+		"order": [
+			"7999504c-a2e5-2159-c4a0-7e992f84b39d",
+			"aeb04209-b429-ebb7-c59e-b7dbefc1cc36",
+			"1b29fc0a-6038-bdbf-6e31-9b9a093779f1",
+			"55a2f3e0-172f-3eb9-5d88-3647af28b611",
+			"78af87cb-28b5-d7fc-7f3e-5335c25101e7"
+		],
+		"folders": [],
+		"timestamp": 1497907233720,
+		"synced": false,
+		"remote_id": 0,
+		"owner": "1346533",
+		"subscribed": false,
+		"remoteLink": "",
+		"remoteLinkUpdatedAt": null,
+		"public": false,
+		"createdAt": 1497907233736,
+		"updatedAt": 1497907234045,
+		"write": true,
+		"published": false,
+		"favorite": false,
+		"permissions": {},
+		"syncedPermissions": {}
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "localhost:8888/API-MCFLY/public/notes/favNotes.json",
+			"id": "7999504c-a2e5-2159-c4a0-7e992f84b39d",
+			"url": "localhost:8888/API-MCFLY/public/notes/favNotes.json",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"86"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "86",
+			"totalRequestTime": "86",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:8888/API-MCFLY/public/notes/notes.json",
+			"id": "aeb04209-b429-ebb7-c59e-b7dbefc1cc36",
+			"url": "localhost:8888/API-MCFLY/public/notes/notes.json",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"71"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "71",
+			"totalRequestTime": "71",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:8888/API-MCFLY/public/notes/favNote/5.json",
+			"id": "1b29fc0a-6038-bdbf-6e31-9b9a093779f1",
+			"url": "localhost:8888/API-MCFLY/public/notes/favNote/5.json",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"140"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "140",
+			"totalRequestTime": "140",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:8888/API-MCFLY/public/notes/specificNote/8.json",
+			"id": "55a2f3e0-172f-3eb9-5d88-3647af28b611",
+			"url": "localhost:8888/API-MCFLY/public/notes/specificNote/8.json",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"75"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "75",
+			"totalRequestTime": "75",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:8888/API-MCFLY/public/notes/create.json",
+			"id": "78af87cb-28b5-d7fc-7f3e-5335c25101e7",
+			"url": "localhost:8888/API-MCFLY/public/notes/create.json",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"102"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "102",
+			"totalRequestTime": "102",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 474,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "localhost:8888/API-MCFLY/public/notes/favNotes.json",
+			"id": "7999504c-a2e5-2159-c4a0-7e992f84b39d",
+			"url": "localhost:8888/API-MCFLY/public/notes/favNotes.json",
+			"time": "2017-06-19T21:22:22.251Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:8888/API-MCFLY/public/notes/notes.json",
+			"id": "aeb04209-b429-ebb7-c59e-b7dbefc1cc36",
+			"url": "localhost:8888/API-MCFLY/public/notes/notes.json",
+			"time": "2017-06-19T21:22:22.251Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:8888/API-MCFLY/public/notes/favNote/5.json",
+			"id": "1b29fc0a-6038-bdbf-6e31-9b9a093779f1",
+			"url": "localhost:8888/API-MCFLY/public/notes/favNote/5.json",
+			"time": "2017-06-19T21:22:22.251Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:8888/API-MCFLY/public/notes/specificNote/8.json",
+			"id": "55a2f3e0-172f-3eb9-5d88-3647af28b611",
+			"url": "localhost:8888/API-MCFLY/public/notes/specificNote/8.json",
+			"time": "2017-06-19T21:22:22.251Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:8888/API-MCFLY/public/notes/create.json",
+			"id": "78af87cb-28b5-d7fc-7f3e-5335c25101e7",
+			"url": "localhost:8888/API-MCFLY/public/notes/create.json",
+			"time": "2017-06-19T21:22:22.251Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
