@@ -10,10 +10,5 @@
 
 ## Description
 
-Ejemplo de api rest
+MODELO Y CONTROLADOR EN: FUEL/APP/CLASSES
 
-###correr migration 
-php oil refine migrate
-
-###base de datos
-apirestfuelphp
